@@ -1,0 +1,354 @@
+#root {
+  max-width: 1440px;
+}
+
+.Basket {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  /* identical to box height, or 52px */
+
+  letter-spacing: 0.03em;
+
+  color: #000000;
+}
+.PagesName {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  /* identical to box height, or 21px */
+
+  color: #000000;
+}
+.btn1 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  color: #000000;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(184, 176, 176, 0.079);
+  outline: none;
+}
+
+.hrr {
+  width: 100%;
+  height: 0.5px;
+  margin-top: 30px;
+  background: grey;
+}
+.Productes hr {
+  height: 3px;
+  background: grey;
+  width: 100%;
+}
+.product_img {
+  width: 210px;
+  height: 210px;
+  box-shadow: 3px 3px 6px grey;
+}
+
+.navigation {
+  padding: 10px;
+  width: 55%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.shop_list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  width: 100%;
+  height: auto;
+}
+
+.Productes {
+  padding: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 60%;
+  min-height: 50vh;
+}
+
+.Prodact {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 250px;
+  padding: 20px;
+}
+
+.BowlName {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  color: #3a3a3a;
+}
+
+.divcount {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 15px;
+  height: 360px;
+}
+
+.Counter {
+  width: 150px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 15px;
+  border: solid 1px grey;
+  width: 140px;
+  height: 40px;
+  left: 251px;
+  top: 719px;
+
+  border: 1px solid #000000;
+  border-radius: 12px;
+}
+
+.plus {
+  color: #000000;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #fff;
+  font-size: 25px;
+}
+
+.minus {
+  color: #000000;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #fff;
+  font-size: 33px;
+
+  height: auto;
+  width: auto;
+  height: auto;
+}
+.Price {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.Price span {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.skidka {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  text-decoration-line: line-through;
+  color: #8b8b8b;
+}
+
+.booking {
+  width: 496px;
+  height: 393px;
+  border: 2px solid #000000;
+  border-radius: 21px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.Details {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.Shtuka {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  margin-top: 7px;
+}
+.top_booking {
+  width: 90%;
+  height: auto;
+}
+.Miqdori {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.h1lar {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 2px;
+}
+.h1lar h5 {
+  margin: 3px;
+  font-size: 16px;
+}
+
+.Summasi {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 130%;
+  /* or 31px */
+
+  letter-spacing: 0.03em;
+
+  color: #000000;
+}
+
+.bottom_booking {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 30vh;
+}
+
+.UserPhone {
+  width: 446px;
+  height: 73px;
+
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  text-align: start;
+  padding-left: 30px;
+  font-size: 18px;
+  margin: 5px;
+}
+
+.Book {
+  width: 446px;
+  height: 76px;
+  left: 939px;
+  top: 590px;
+
+  background: #f188f2;
+  border-radius: 30px;
+  color: white;
+  font-size: 32px;
+  margin: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.Footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: auto;
+}
+
+.leftFooter {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.contactName {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  color: #000000;
+}
+
+.number {
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 130%;
+  color: #000000;
+}
+
+.imgFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 250px;
+  height: 100px;
+}
+
+.instagram {
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+  border-radius: 11px;
+  border: none;
+  outline: none;
+}
+
+.whatsApp {
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+  border-radius: 11px;
+  border: none;
+  outline: none;
+}
+.rightFooter {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  width: 55%;
+  height: 30vh;
+}
+
+.adress {
+  margin: 5px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  color: #000000;
+}
+
+.adress2 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 130%;
+  color: #000000;
+}
+
+.work {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  color: #000000;
+}
+
+.work2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 130%;
+  color: #000000;
+}

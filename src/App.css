@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.asos {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  padding: 14px 50px;
+  background: #f188f2;
+  border: 2px solid #f188f2;
+  border-radius: 5px;
+  margin-left: 40px;
+}
+.inputtt input {
+  margin-left: 16px;
+  padding: 15px 200px 15px 38px;
+  border: 2px solid #a9a9a9;
+  border-radius: 9px;
+}
+.bten button {
+  margin-left: 60px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+}
+.navbar button {
+  margin: 40px;
+  margin-top: 29px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.nomer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 29px;
+}
+.nomer a {
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: black;
+}
+.nomer p {
+  padding-left: 70px;
+}
+.aksiaaa{
+  display: flex;
+}
+.home {
+  width: 1200px;
+  height: 600px;
+  background: url(../public/img/kok.png);
+  background-repeat:no-repeat ;
+}
+.home h1 {
+  padding-top: 130px;
+  padding-left: 50px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 130%;
+  color: #ffffff;
+}
+.home h5{
+  padding-top: 5px;
+  padding-left: 50px;
+  font-weight: 700;
+  font-size: 53px;
+  color: #FFFFFF;
+}
+.aksia{
+  cursor: pointer;
+  border: none;
+  margin-left: 51px;
+  margin-top: 60px;
+  padding: 25px 50px;
+  background: #FFFFFF;
+  border-radius: 13px;
+}
+.aksia:hover{
+  transition: all 0.2s ease-in-out;
+  border:  1px solid white;
+  background: inherit;
+}
+.polniy{
+  padding: 25px 50px;
+  border-radius: 13px;
+  margin-left: 20px;
+  background: #A1E2EB;
+  border: solid 1px white;
+  cursor: pointer;
+}
+.polniy:hover{
+  transition: all 0.5s ease-in-out;
+  background: white;
+}
